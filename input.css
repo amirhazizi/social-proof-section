@@ -7,6 +7,13 @@
 body {
   font-size: 15px;
   font-family: "League Spartan", sans-serif;
+  background: url("../images/bg-pattern-top-mobile.svg") top/90% no-repeat;
+}
+@media (min-width: 768px) {
+  body {
+    background: url("../images/bg-pattern-top-desktop.svg") no-repeat,
+      url("../images/bg-pattern-bottom-desktop.svg") 200% 0 / contain no-repeat;
+  }
 }
 /* footer */
 footer {
