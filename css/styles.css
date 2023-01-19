@@ -728,10 +728,11 @@ body {
   background: url("../images/bg-pattern-top-mobile.svg") top/90% no-repeat;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1440px) {
   body {
     background: url("../images/bg-pattern-top-desktop.svg") no-repeat,
-      url("../images/bg-pattern-bottom-desktop.svg") 200% 0 / contain no-repeat;
+      url("../images/bg-pattern-bottom-desktop.svg") 200% 100% / contain
+        no-repeat;
   }
 }
 
