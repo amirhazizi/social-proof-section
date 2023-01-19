@@ -736,6 +736,15 @@ body {
   }
 }
 
+h1,
+h2,
+h3,
+a,
+p {
+  font-size: 15px;
+  font-family: "League Spartan", sans-serif;
+}
+
 /* footer */
 
 footer {
